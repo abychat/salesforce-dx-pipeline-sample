@@ -14,7 +14,7 @@ set -o nounset    # fail on unset variables
 TICKS=$(echo $(date +%s | cut -b1-13))
 
 # Name of your team (optional)
-HEROKU_TEAM_NAME=""
+HEROKU_TEAM_NAME="pse-sfdx-team"
 
 # Descriptive name for the Heroku app
 HEROKU_APP_NAME="TestLighningApp"
